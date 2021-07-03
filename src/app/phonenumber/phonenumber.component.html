@@ -1,0 +1,7 @@
+<input type="number" [(ngModel)]="first" >
+<div *ngFor="let value of values; let i = index"> 
+<input type="number">
+<button (click)="delete()">delete</button>
+</div>
+<button (click)="addnum()">next number</button>
+
